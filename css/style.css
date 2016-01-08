@@ -1,9 +1,12 @@
 h1 {
   text-align: left;
-  padding: 12px;
+  padding: 10px;
   font-size: 4em;
 }
 
+body { 
+  padding: 10px;
+}
 ul {
     list-style-type: none;
     margin: 0;
