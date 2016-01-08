@@ -24,4 +24,11 @@ li {
     text-decoration: none;
 }
 
+.mask {
+  height: 125px;
+  width: 125px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  float: left;
+  margin-right: 10px;
+
 
