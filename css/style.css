@@ -1,34 +1,44 @@
+body { 
+  padding: 10px;
+}
+
 h1 {
   text-align: left;
   padding: 10px;
   font-size: 4em;
 }
 
-body { 
-  padding: 10px;
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #991f00;
+    background-color: #b32400;
 }
 
 li {
     float: right;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .mask {
-  height: 125px;
-  width: 125px;
+  height: 130px;
+  width: 130px;
   -webkit-clip-path: circle(50% at 50% 50%);
   float: left;
   margin-right: 10px;
+}
 
+.sidebar {
+  padding: 15px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
 
+.appearances {
+  text-align: left;
+  color: white;
+}
