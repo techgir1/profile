@@ -19,26 +19,27 @@ ul {
 li {
     float: right;
     display: block;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.mask {
-  height: 130px;
-  width: 130px;
+.Smask {
+  height: 280px;
+  width: 180px;
+  -webkit-clip-path: square(50% at 50% 50%);
+  float: left;
+  margin-right: 10px;
+}
+
+.Cmask {
+  height: 120px;
+  width: 120px;
   -webkit-clip-path: circle(50% at 50% 50%);
   float: left;
   margin-right: 10px;
 }
 
-.sidebar {
-  padding: 15px;
-  background-color: #e6e6e6;
-  border-radius: 5px;
-}
-
 .appearances {
-  text-align: left;
   color: white;
 }
