@@ -1,5 +1,6 @@
 body { 
   padding: 10px;
+  background-image: 
 }
 
 h1 {
@@ -17,11 +18,15 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
     display: block;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .Smask {
@@ -43,3 +48,8 @@ li {
 .appearances {
   color: white;
 }
+
+#float {
+  float: center;
+}
+
