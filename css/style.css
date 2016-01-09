@@ -1,6 +1,5 @@
 body { 
-  padding: 10px;
-  background-image: 
+  padding: 10px; 
 }
 
 h1 {
@@ -14,7 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b32400;
+    background-color: #cd3700;
 }
 
 li {
